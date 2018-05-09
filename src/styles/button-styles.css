@@ -1,0 +1,18 @@
+.btn {
+  margin: 1rem;
+  outline: none;
+  border: 0 none;
+  background: var(--bg);
+  border-radius: var(--border-r);
+}
+
+.btn-primary {
+  color: white;
+  background: darkred;
+  padding: var(--padding);
+  transition: var(--transition);
+}
+
+.btn-primary:hover {
+  background: var(--secundary);
+}

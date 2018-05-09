@@ -1,0 +1,23 @@
+:root {
+  --trans: transparent;
+  --bg: black;
+  --primary: darkred;
+  --secundary: slateblue;
+  --padding: .6rem;
+  --border-r: 4px;
+  --color: white;
+  --transition: all 320ms ease-in-out;
+}
+::selection {
+  background: var(--secundary);
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: var(--bg);
+  color: var(--color);
+}
+
+button {
+  cursor: pointer;
+}

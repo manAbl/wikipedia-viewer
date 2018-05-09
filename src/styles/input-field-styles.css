@@ -1,0 +1,19 @@
+.form-group {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.form-group input {
+  border:0;
+  outline: 0;
+  color: var(--color);
+  margin: var(--padding);
+  padding: var(--padding);
+  background: var(--trans);
+  transition: var(--transition);
+  border-radius: var(--border-r);
+  border-bottom: 2px solid var(--primary);
+}
+
+.form-group input:focus {
+  border-bottom-color: var(--secundary);
+}
